@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPasien">
+
+    <TextView
+        android:id="@+id/bodyAddPasien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#33B4E4"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#33B4E4"
+        android:fontFamily="@font/poppins_light"
+        android:text="&lt;"
+        android:textSize="30dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView99"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="43dp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266"
+        app:srcCompat="@drawable/oval_ornament" />
+
+    <ImageView
+        android:id="@+id/imageView88"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="-20dp"
+        android:layout_marginBottom="-20dp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/oval_ornament" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/doctor_visit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Tambah"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Pasien"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <EditText
+        android:id="@+id/idnama"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="Nama"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <EditText
+        android:id="@+id/idttl"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="Tanggal Lahir"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <EditText
+        android:id="@+id/idalamat"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="Alamat"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <EditText
+        android:id="@+id/idjk"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="Jenis Kelamin"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <Button
+        android:id="@+id/buttonAddPasien"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#33B4E4"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Tambah"
+        android:textSize="18sp"
+        app:cornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <EditText
+        android:id="@+id/idnik"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="NIK"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="idunama" type="id" />
+    <item name="iduttl" type="id" />
+    <item name="idualamat" type="id" />
+    <item name="idujk" type="id" />
+    <item name="idupdate" type="id" />
+    <item name="idjk" type="id" />
+    <item name="idalamat" type="id" />
+    <item name="idttl" type="id" />
+    <item name="idnama" type="id" />
+    <item name="idnik" type="id" />
+</resources>
