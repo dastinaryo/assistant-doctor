@@ -17,3 +17,6 @@ The app can be integrated with a hospital or health centre's management system t
 
 ## 4. Periodic Updates
 The app is designed to support regular updates and upgrades, including the improvement of AI models based on technological developments and the addition of relevant new features.
+
+## How it works
+<img src="documentation/ui/1.png" alt="Login" width="400"/>
