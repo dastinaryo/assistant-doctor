@@ -25,7 +25,7 @@ Log in to access the patient management system. Your credentials keep our data s
 
 Login Button: Login to Your Account
 <p align="center">
-    <img src="documentation/ui/1.png" alt="Login" width="400"/>
+    <img src="documentation/ui/1.png" alt="Login" width="200"/>
 </p>
 
 ### Dashboard
@@ -33,39 +33,39 @@ Patient Overview
 Your central hub for managing patient information. Easily view and navigate through your list of patients.
 Description: Here’s a quick view of all patients. Click on any patient to see more details or update their information.
 <p align="center">
-    <img src="documentation/ui/2.png" alt="Login" width="400"/>
+    <img src="documentation/ui/2.png" alt="Login" width="200"/>
 </p>
 
 ### Add New Patient
 Start managing a new patient's health journey. Fill in the details below to create a new patient profile.
 <p align="center">
-    <img src="documentation/ui/3.png" alt="Login" width="400"/>
+    <img src="documentation/ui/3.png" alt="Login" width="200"/>
 </p>
 
 ### Update Patient Data
 Update Patient Information
 Keep patient records up to date. Modify existing details to ensure accuracy and comprehensive care.
 <p align="center">
-    <img src="documentation/ui/4.png" alt="Login" width="400"/>
+    <img src="documentation/ui/4.png" alt="Login" width="200"/>
 </p>
 
 ### View Patient Data
 Patient Details
 Review all important information at a glance. Ensure you have everything you need to make informed decisions about patient care.
 <p align="center">
-    <img src="documentation/ui/5.png" alt="Login" width="400"/>
+    <img src="documentation/ui/5.png" alt="Login" width="200"/>
 </p>
 
 ### Delete Patient Data
 Delete Patient Record
 Carefully consider before removing a patient’s data. This action is permanent and cannot be undone.
 <p align="center">
-    <img src="documentation/ui/6.png" alt="Login" width="400"/>
+    <img src="documentation/ui/6.png" alt="Login" width="200"/>
 </p>
 
 ### Patient Diagnosis
 AI-Powered X-ray Diagnosis
 Leverage cutting-edge AI technology to analyze X-ray images for brain tumor identification. Our system uses advanced algorithms to detect and classify potential tumors, providing crucial insights that support accurate and timely diagnoses.
 <p align="center">
-    <img src="documentation/ui/7.png" alt="Login" width="400"/>
+    <img src="documentation/ui/7.png" alt="Login" width="200"/>
 </p>
